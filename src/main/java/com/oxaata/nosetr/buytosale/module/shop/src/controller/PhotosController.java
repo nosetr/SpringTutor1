@@ -3,6 +3,9 @@ package com.oxaata.nosetr.buytosale.module.shop.src.controller;
 /*
   Look tutorial by:
   https://www.youtube.com/watch?v=QuvS_VLbGko
+  At last 30:34
+  and
+  https://www.jetbrains.com/help/idea/spring-support-tutorial.html#run-app-and-execute-requests
  */
 import com.oxaata.nosetr.buytosale.module.shop.src.service.Photo;
 import org.springframework.http.HttpStatus;
@@ -46,8 +49,9 @@ public class PhotosController {
         if(photo == null) throw new ResponseStatusException(HttpStatus.NOT_FOUND);
     }
 
+    // "RequestBody" to become all json request
     @PostMapping("/photos/")
-    public Photo create(Photo photo){
+    public Photo create(@RequestBody Photo photo){
         Random rand = new Random();
         photo.setId(rand.nextInt());
         db.put(photo.getId(), photo);
