@@ -1,23 +1,25 @@
 package com.oxaata.nosetr.buytosale.module.shop.src.service;
 
 public class Photo {
-    private String id;
+    private int id;
 
     private String fileName;
 
     // raw data
 
 
-    public Photo(String id, String fileName) {
-        this.id = id;
-        this.fileName = fileName;
+    public Photo(int id, String fileName) {
+//        this.id = id;
+//        this.fileName = fileName;
+        setId(id);
+        setFileName(fileName);
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
