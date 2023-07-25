@@ -78,6 +78,13 @@ What is Spring MVC: @Controllers & RestControllers https://www.marcobehler.com/g
 How Spring Boot’s Autoconfigurations Work
 https://www.marcobehler.com/guides/spring-boot
 
+To set the specific java-version for maven (only ones):
+```
+update-alternatives --list java
+
+JAVA_HOME=/path/to/your/jdk mvn clean install
+```
+
 Create jar-package in terminal:
 ```
 ./mvnw clean package
