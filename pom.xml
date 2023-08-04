@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.oxaata.nosetr</groupId>
-	<artifactId>BuyToSaleAdmin</artifactId>
+	<artifactId>SpringTutor1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>BuyToSaleAdmin</name>
+	<name>SpringTutor1</name>
 	<description>Admin project for Spring Boot</description>
 	<properties>
 		<java.version>20</java.version>

@@ -1,4 +1,4 @@
-package com.oxaata.nosetr.buytosale.module.shop.src.controller;
+package com.oxaata.nosetr.app.controller;
 
 /*
   Look tutorial by:
@@ -6,8 +6,8 @@ package com.oxaata.nosetr.buytosale.module.shop.src.controller;
   and
   https://www.jetbrains.com/help/idea/spring-support-tutorial.html#run-app-and-execute-requests
  */
-import com.oxaata.nosetr.buytosale.module.shop.src.model.PhotoModel;
-import com.oxaata.nosetr.buytosale.module.shop.src.service.PhotosService;
+import com.oxaata.nosetr.app.model.PhotoModel;
+import com.oxaata.nosetr.app.service.PhotosService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

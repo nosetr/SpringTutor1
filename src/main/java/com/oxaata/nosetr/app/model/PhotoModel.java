@@ -1,4 +1,4 @@
-package com.oxaata.nosetr.buytosale.module.shop.src.model;
+package com.oxaata.nosetr.app.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.validation.constraints.NotEmpty;

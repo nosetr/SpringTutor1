@@ -1,7 +1,7 @@
-package com.oxaata.nosetr.buytosale.module.shop.src.controller;
+package com.oxaata.nosetr.app.controller;
 
-import com.oxaata.nosetr.buytosale.module.shop.src.model.PhotoModel;
-import com.oxaata.nosetr.buytosale.module.shop.src.service.PhotosService;
+import com.oxaata.nosetr.app.model.PhotoModel;
+import com.oxaata.nosetr.app.service.PhotosService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.GetMapping;

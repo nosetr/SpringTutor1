@@ -1,7 +1,7 @@
-package com.oxaata.nosetr.buytosale.module.shop.src.service;
+package com.oxaata.nosetr.app.service;
 
-import com.oxaata.nosetr.buytosale.module.shop.src.model.PhotoModel;
-import com.oxaata.nosetr.buytosale.module.shop.src.repository.PhotosRepository;
+import com.oxaata.nosetr.app.model.PhotoModel;
+import com.oxaata.nosetr.app.repository.PhotosRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;

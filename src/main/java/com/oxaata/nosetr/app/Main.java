@@ -1,13 +1,13 @@
-package com.oxaata.nosetr.buytosale;
+package com.oxaata.nosetr.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BuyToSaleAdminApplication {
+public class Main {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BuyToSaleAdminApplication.class, args);
+		SpringApplication.run(Main.class, args);
 	}
 
 }
